@@ -1,0 +1,12 @@
+
+//
+//  .swiftlint
+//  deskassistant
+//
+//  Created by Gus Fune on 31/12/2024.
+//
+
+opt_in_rules:
+    - indentation_width
+    - explicit_self
+    - operator_usage_whitespace
