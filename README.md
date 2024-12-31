@@ -8,6 +8,8 @@ This is a small helper to Upsie Desk to allow both automation and manual control
 
 Only works in macOS 15.0 Sequoia duh to some simple APIs. I couldn't be bothered to use older APIs. Should work fine in earlier versions.
 
+This was tested with Upsy Desk firmware versions 3.0 and 4.0.2. Will not support older versions.
+
 ## Usage
 
 You will need to compile the project from the source. Should work fine from copying and running locally.
