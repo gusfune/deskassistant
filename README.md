@@ -2,9 +2,13 @@
 
 This is a small helper to Upsie Desk to allow both automation and manual control of an [Upsy Desky](https://github.com/tjhorner/upsy-desky) device as a Mac menu bar.
 
+![image](https://github.com/user-attachments/assets/3a2f2ff3-e1f1-47a2-bb61-be2fc857c64e)
+
 ## Compatibility
 
 Only works in macOS 15.0 Sequoia duh to some simple APIs. I couldn't be bothered to use older APIs. Should work fine in earlier versions.
+
+This was tested with Upsy Desk firmware versions 3.0 and 4.0.2. Will not support older versions.
 
 ## Usage
 
@@ -13,6 +17,8 @@ You will need to compile the project from the source. Should work fine from copy
 Adjust the parameters `UPSIE_DESK_ENDPOINT` in info.plist to correspond to your own Upsy Desk endpoint.
 
 Once compiled you can automate with interval or manually configure. Right now it only cycles from High and Low settings in the predetermined interval. It's configured to only run from 9am to 5pm (local time), you should be able to change or remove this limitation from the source code.
+
+⚠️ All settings are hardcoded to centimeters `cm`, if you use inches you might need to review the defaults, but should work fine.
 
 ## NOTE OF SANITY FOR OTHER DEVELOPERS
 
