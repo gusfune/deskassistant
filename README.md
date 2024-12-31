@@ -16,6 +16,8 @@ Adjust the parameters `UPSIE_DESK_ENDPOINT` in info.plist to correspond to your 
 
 Once compiled you can automate with interval or manually configure. Right now it only cycles from High and Low settings in the predetermined interval. It's configured to only run from 9am to 5pm (local time), you should be able to change or remove this limitation from the source code.
 
+⚠️ All settings are hardcoded to centimeters `cm`, if you use inches you might need to review the defaults, but should work fine.
+
 ## NOTE OF SANITY FOR OTHER DEVELOPERS
 
 Code is messy (ignored DRY or any good practice), did as a one day project to learn more about SwiftUI. Still can't figure how linting works... I've should have built this in Electron or else...
