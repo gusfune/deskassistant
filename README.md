@@ -2,6 +2,8 @@
 
 This is a small helper to Upsie Desk to allow both automation and manual control of an [Upsy Desky](https://github.com/tjhorner/upsy-desky) device as a Mac menu bar.
 
+![image](https://github.com/user-attachments/assets/3a2f2ff3-e1f1-47a2-bb61-be2fc857c64e)
+
 ## Compatibility
 
 Only works in macOS 15.0 Sequoia duh to some simple APIs. I couldn't be bothered to use older APIs. Should work fine in earlier versions.
