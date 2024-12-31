@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CCEA91F32D24441B00B95D55 /* README in Resources */ = {isa = PBXBuildFile; fileRef = CCEA91F22D24441600B95D55 /* README */; };
+		CCEA91F32D24441B00B95D55 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CCEA91F22D24441600B95D55 /* README.md */; };
 		CCEA91F52D2445DD00B95D55 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CCEA91F42D2445D800B95D55 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC9DEA382D22EF57005F6A49 /* deskassistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deskassistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCEA91F22D24441600B95D55 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CCEA91F22D24441600B95D55 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CCEA91F42D2445D800B95D55 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +52,7 @@
 		CC9DEA2F2D22EF57005F6A49 = {
 			isa = PBXGroup;
 			children = (
-				CCEA91F22D24441600B95D55 /* README */,
+				CCEA91F22D24441600B95D55 /* README.md */,
 				CCEA91F42D2445D800B95D55 /* LICENSE */,
 				CC9DEA3A2D22EF57005F6A49 /* deskassistant */,
 				CC9DEA392D22EF57005F6A49 /* Products */,
@@ -129,7 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCEA91F32D24441B00B95D55 /* README in Resources */,
+				CCEA91F32D24441B00B95D55 /* README.md in Resources */,
 				CCEA91F52D2445DD00B95D55 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
