@@ -49,7 +49,7 @@ struct AppMenu: View {
     
     var body: some View {
         VStack(spacing: 1.0) {
-            Image(systemName: "studentdesk")
+            Image(systemName: $enabled.wrappedValue ? "lamp.desk.fill" : "lamp.desk")
                 .resizable(resizingMode: .stretch)
                 .frame(width: 32.0, height: 32.0)
             
